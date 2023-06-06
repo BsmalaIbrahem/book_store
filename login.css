@@ -1,0 +1,60 @@
+form{
+    max-width:500px;
+    margin:auto;
+    margin-top:100px;
+    padding:10px 0;
+    border-radius:10px;
+    
+}
+form h1, form div{
+    text-align:center;
+}
+form h1{
+    text-transform:capitalize;
+    font-family:serif;
+}
+form div{
+    margin:15px 0;
+    
+}
+form input[type='text'], input[type='email'],input[type='password'],  form select{
+    width:80%;
+    margin:auto;
+    outline:0;
+    padding:10px 0;
+    text-indent:3px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.otherInfo  input[type='password'],.otherInfo input[type=text], .otherInfo select{
+    width:40%; 
+    display:inline;
+}
+.gender span{
+    font-size:20px;
+    text-transform:capitalize;
+    font-weight:bold;
+    margin-right:10px;
+    
+}
+.gender input{
+    margin:0 5px;
+}
+.gender label{
+    margin-right:3px;
+    text-transform:capitalize;
+}
+form input[type=submit]{
+    font-size:20px;
+    border-radius:10px;
+    padding:5px 10px;
+    width:100px;
+    display:block;
+    margin:auto;
+}
+form a{
+     margin-left:20px;
+     text-transform:capitalize;
+     font-size:20px;
+    color: #2325277a;
+}

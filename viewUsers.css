@@ -1,0 +1,15 @@
+section{
+    
+    max-width:1160px;
+    margin-top:100px;
+}
+
+section table tr th, section table tr td{
+    
+    padding:10px 30px;
+    border:2px solid black;
+}
+
+
+
+
